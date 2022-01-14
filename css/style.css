@@ -1,6 +1,105 @@
 /* Google Font link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
 /* Reset & utility Code */
+*{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #3a3a3a;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.mr-34{
+    margin-right: 34px;
+}
+/* ===================
+    Hearder Part Start 
+=======================*/
+.menu_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+}
+.logo_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    display: flex;
+    margin-right: 34px;
+}
+.menu ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+/* Before Effect */
+.menu ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #54637b;
+    width: 0;
+    height: 2px;
+    margin-bottom: 4px;
+    transition: width .6s ease-in;
+    -webkit-transition: width .6s ease-in;
+    -moz-transition: width .6s ease-in;
+    -ms-transition: width .6s ease-in;
+    -o-transition: width .6s ease-in;
+}
+/* Icon */
+.serach_icon,
+.addTo_cart {
+    font-size: 20px;
+}
+a .fa,
+.fas{
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+/* Hover */
+.menu ul li:hover a,
+.menu .serach_icon:hover .fas,
+.menu .addTo_cart:hover .fa{
+    color: #54637b;
+}
+.menu ul li:hover a::before{
+    width: 100%;
+}
+/* Menu area end */
 
+/* ===================
+    Hearder Part End 
+=======================*/

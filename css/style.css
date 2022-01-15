@@ -23,8 +23,21 @@ a{
 ul{
     list-style-type: none;
 }
+img{
+    max-width: 100%;
+}
 .mr-34{
     margin-right: 34px;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background: #e02c6d;
+    color: #fff;
+    padding: 10px 24px;
+    display: inline-block;
+    border-radius: 41px;
 }
 /* ===================
     Hearder Part Start 
@@ -102,4 +115,87 @@ a .fa,
 
 /* ===================
     Hearder Part End 
+=======================*/
+
+
+/* =====================
+    H-banner Part Start 
+=======================*/
+.h_banner_section {
+    padding: 40px 0 70px 0;
+}
+.banner_content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 133px;
+    align-items: center;
+}
+.banner_title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.banner_para {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 16px 0;
+}
+.banner_btn .fas {
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    margin-left: 8px;
+}
+.banner_btn{
+    transition: banner_btn .5s ease-in;
+    -webkit-transition: banner_btn .5s ease-in;
+    -moz-transition: banner_btn .5s ease-in;
+    -ms-transition: banner_btn .5s ease-in;
+    -o-transition: banner_btn .5s ease-in;
+}
+/* Hover */
+.banner_btn:hover,
+.banner_btn:hover .fas{
+    background: transparent;
+    color: #e02c6d;
+    border: 1px solid #e02c6d;
+}
+.banner_btn:hover .fas{
+    border: transparent;
+}
+.banner_img {
+    width: 475px;
+    height: 475px;
+    border: 3px solid #f1e4ff;
+    border-radius: 50%;
+    position: relative;
+}
+/* Background circle */
+.banner_img .circle_1 {
+    width: 332px;
+    height: 332px;
+    background: #f1e4ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.banner_img .circle_2 {
+    width: 195px;
+    height: 195px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.banner_img img{
+    width: 440px;
+    height: 414px;
+    background: transparent;
+}
+
+/* =====================
+    H-banner Part End 
 =======================*/

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 540px) {
+    .container{
+        width: 450px;
+    }
+    .menu ul {
+        display: none;
+    }
+    .serach_icon{
+        display: none;
+    }
+    .banner_content {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    .item1 {
+        order: 2;
+    }
+    .banner_img {
+        width: 390px;
+        height: 390px;
+    }
+    .banner_img img {
+        width: 330px;
+        height: 390px;
+    }
+    .banner_title {
+        font-size: 40px;
+    }
+    .brand_content {
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 18px;
+    }
+    .collection_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .C_item_img img {
+        width: 385px;
+    }
+    .footer_section {
+        width: 540px;
+    }
+}

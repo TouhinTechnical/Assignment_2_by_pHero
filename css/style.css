@@ -5,9 +5,11 @@
 *{
     margin: 0;
     padding: 0;
-    background: #fff;
     color: #3a3a3a;
     font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #fff;
 }
 .container{
     width: 1170px;
@@ -304,4 +306,63 @@ a .fa,
 }
 /* =======================
     Collection Part End
+==========================*/
+
+/* =======================
+    Footer Part Start
+==========================*/
+.footer_section {
+    text-align: center;
+    background: #0a0826;
+    padding: 50px 0;
+}
+.footer_title {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #fff;
+}
+.footer_para {
+    font-size: 14px;
+    font-weight: 700;
+    color: #d9dbe1;
+}
+.social_link {
+    margin-top: 17px;
+}
+.social_link ul {
+    display: inline-flex;
+}
+.social_link ul li{
+    margin-right: 16px;
+}
+.social_link ul li a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: rgba(192, 188, 188, 0.1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    transition: color .5s ease-in;
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+    -ms-transition: color .5s ease-in;
+    -o-transition: color .5s ease-in;
+}
+.social_link ul li a .fab{
+    color: #fff;
+    margin-top: 8px;
+}
+.social_link ul li:hover a,
+.social_link ul li:hover a .fab{
+    color: #000000;
+    background: #d9dbe1;
+}
+/* =======================
+    Footer Part End
 ==========================*/

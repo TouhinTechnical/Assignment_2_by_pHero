@@ -310,6 +310,49 @@ a .fa,
 ==========================*/
 
 /* =======================
+    Contect Part Start
+==========================*/
+.contect_section {
+    padding: 20px 0;
+}
+.contect_main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 120px;
+    align-items: center;
+}
+.content_img {
+    width: 540px;
+    height: 420px;
+}
+.contect_details {
+    margin-bottom: 10px;
+}
+.contect_Subtitle,
+.contect_title,
+.contect_d_subtile {
+    font-size: 16px;
+    font-weight: 600;
+    color: #343f52;
+    text-transform: uppercase;
+}
+.contect_title {
+    font-size: 34px;
+    margin: 6px 0;
+}
+.contect_d_subtile {
+    font-size: 19px;
+}
+.contect_para {
+    font-size: 17px;
+    font-weight: 500;
+    color: #60697b;
+}
+/* =======================
+    Contect Part End
+==========================*/
+
+/* =======================
     Footer Part Start
 ==========================*/
 .footer_section {

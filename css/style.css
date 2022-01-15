@@ -39,6 +39,7 @@ img{
     display: inline-block;
     border-radius: 41px;
 }
+
 /* ===================
     Hearder Part Start 
 =======================*/
@@ -116,7 +117,6 @@ a .fa,
 /* ===================
     Hearder Part End 
 =======================*/
-
 
 /* =====================
     H-banner Part Start 
@@ -219,3 +219,89 @@ a .fa,
 /* ======================
     H-banner Part End
 =======================*/
+
+/* =======================
+    Collection Part Start
+==========================*/
+.collection_section{
+    padding: 100px 0;
+}
+.collection_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.collection_title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.collection_item {
+    padding: 17px 15px 17px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.C_item_img img {
+    width: 331px;
+    margin-bottom: 16px;
+}
+.C_item_info_title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191f;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+.item_price {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.item_ratting .fas{
+    font-size: 16px;
+    color: #fb8200;
+    margin-bottom: 8px;
+}
+.item_ratting span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5e6366;
+    letter-spacing: .1;
+}
+.item_para {
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.item_more {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #e02c6d;
+    margin-top: 50px;
+    display: block;
+    text-align: right;
+    transition: color .5s ease-in;
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+    -ms-transition: color .5s ease-in;
+    -o-transition: color .5s ease-in;
+}
+.item_more .fas{
+    color: #e02c6d;
+    margin-left: 8px;
+}
+.item_more:hover,
+.item_more:hover .fas{
+    color: #54637b;
+}
+/* =======================
+    Collection Part End
+==========================*/

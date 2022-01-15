@@ -199,3 +199,23 @@ a .fa,
 /* =====================
     H-banner Part End 
 =======================*/
+
+/* ======================
+    H-banner Part Start
+=======================*/
+.brand_content {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 110px;
+    align-content: center;
+    justify-items: center;
+    border-top: 1px solid #c0ccda99;
+    border-bottom: 1px solid #c0ccda99;
+}
+.brand_item img{
+    width: 84px;
+    height: 26px;
+}
+/* ======================
+    H-banner Part End
+=======================*/

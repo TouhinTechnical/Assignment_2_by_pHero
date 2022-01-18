@@ -174,21 +174,30 @@ a .fa,
     border-radius: 50%;
     position: relative;
 }
-.banner_img img{
-    transition: transform .3s ease-in-out;
-    -webkit-transition: transform .3s ease-in-out;
-    -moz-transition: transform .3s ease-in-out;
-    -ms-transition: transform .3s ease-in-out;
-    -o-transition: transform .3s ease-in-out;
+.banner_img .banner_img_item{
+    transition: transform .6s linear;
+    -webkit-transition: transform .6s linear;
+    -moz-transition: transform .6s linear;
+    -ms-transition: transform .6s linear;
+    -o-transition: transform .6s linear;
 }
-.banner_img:hover img{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+.banner_img:hover .banner_img_item{
+    transform: scale(1.2) rotate(330deg);
+    -webkit-transform: scale(1.2) rotate(330deg);
+    -moz-transform: scale(1.2) rotate(330deg);
+    -ms-transform: scale(1.2) rotate(330deg);
+    -o-transform: scale(1.2) rotate(330deg);
 }
 /* Background circle */
+.banner_img_item {
+    background: url('../img/product/main-camera.png') no-repeat;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 440px;
+    height: 414px;
+    box-sizing: border-box;
+}
 .banner_img .circle_1 {
     width: 332px;
     height: 332px;
@@ -197,6 +206,7 @@ a .fa,
     position: absolute;
     top: 15%;
     left: 15%;
+    box-sizing: border-box;
 }
 .banner_img .circle_2 {
     width: 195px;
@@ -206,11 +216,6 @@ a .fa,
     position: absolute;
     top: 30%;
     left: 30%;
-}
-.banner_img img{
-    width: 440px;
-    height: 414px;
-    background: transparent;
 }
 
 /* =====================

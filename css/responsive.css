@@ -74,15 +74,33 @@
         margin-right: 100px;
     }
     .banner_img {
-        /* width: 390px;
-        height: 390px; */
+        width: 390px;
+        height: 390px;
         margin-left: 30px;
     }
-    .banner_img .banner_img_item {
-        /* width: 330px;
-        height: 380px; */
-        background-size: 440px;
+    .banner_img .circle_1 {
+        width: 330px;
+        height: 330px;
+        top: 7.5%;
+        left: 7.5%;
     }
+    .banner_img .circle_2 {
+        width: 230px;
+        height: 230px;
+        top: 20%;
+        left: 20%;
+    }
+    .banner_img .banner_img_item {
+        left: 8px;
+        background-size: 370px;
+    }
+    .banner_img:hover .banner_img_item{
+        transform: scale(1.2) rotate(330deg);
+        -webkit-transform: scale(1.2) rotate(330deg);
+        -moz-transform: scale(1.2) rotate(330deg);
+        -ms-transform: scale(1.2) rotate(330deg);
+        -o-transform: scale(1.2) rotate(330deg);
+}
     .brand_content {
         grid-template-columns: repeat(4,1fr);
         grid-gap: 18px;
@@ -146,9 +164,28 @@
         width: 290px;
         height: 290px;
     }
+    .banner_img .circle_1 {
+        width: 240px;
+        height: 240px;
+        top: 9%;
+        left: 8%;
+    }
+    .banner_img .circle_2 {
+        width: 160px;
+        height: 160px;
+        top: 23%;
+        left: 21%;
+    }
     .banner_img .banner_img_item {
-        width: 210px;
-        height: 290px;
+        left: 5px;
+        background-size: 270px;
+    }
+    .banner_img:hover .banner_img_item{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
     }
     .banner_title {
         font-size: 30px;
